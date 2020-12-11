@@ -12,13 +12,12 @@ public class Club {
     private Team team1;
     private Team team2;
 
-    public Club(String name){
+    public Club(String name, String nit, String creationDate){
         this.name = name;
         this.nit = nit;
         this.creationDate = creationDate;
         employees = new ArrayList<Employee>();
-        team1 = new Team("A");
-        team2 = new Team("B");
+
     }
 		
 		public String getName() {

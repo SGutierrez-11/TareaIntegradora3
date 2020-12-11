@@ -4,7 +4,6 @@ public abstract class Employee {
     private String name; 
     private String identificator; 
     private int salary; 
-    private Status status; 
 
     public Employee(String name) {
         this.name = name;

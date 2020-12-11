@@ -21,7 +21,7 @@ public class LineUp{
 	 this.date=date;
  }
  
- public boolean[] getFormation(){
+ public boolean[][] getFormation(){
 	 return formation;
  }
  
