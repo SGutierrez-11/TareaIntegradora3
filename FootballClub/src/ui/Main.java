@@ -73,16 +73,16 @@ public class Main{
 		System.out.println("Ingrese los siguientes campos");
 		System.out.println("A que equipo pertence (Team A: 1 - Team B: 2)");
 		int team = sc.nextInt();
+		sc.nextLine();
 		System.out.println("Nombre del jugador");
 		String name = sc.nextLine();
-		sc.nextLine();
 		System.out.println("ID del jugador");
 		String identificator = sc.nextLine();
 		System.out.println("Salario del jugador");
 		int salary = sc.nextInt();
+		sc.nextLine();
 		System.out.println("Numero de camiseta del jugador");
 		String numberShirt = sc.nextLine();
-		sc.nextLine();
 		System.out.println("Cantidad de goles hechos por el jugador");
 		int numberGoals = sc.nextInt();
 		sc.nextLine();
@@ -120,9 +120,9 @@ public class Main{
 
 		System.out.println("A que equipo pertence (Team A: 1 - Team B: 2)");
 		int team = sc.nextInt();
+		sc.nextLine();
 		System.out.println("Ingrese el nombre del entrenador");
 		String name = sc.nextLine();
-		sc.nextLine();
 		System.out.println("Ingrese el Id del entrenador");
 		String identificator = sc.nextLine();
 		System.out.println("Ingrese el salario del entrenador");
@@ -146,9 +146,9 @@ public class Main{
 
 		System.out.println("A que equipo pertence (Team A: 1 - Team B: 2)");
 		int team = sc.nextInt();
+		sc.nextLine();
 		System.out.println("Ingrese el nombre del entrenador");
 		String name = sc.nextLine();
-		sc.nextLine();
 		System.out.println("Ingrese el Id del entrenador");
 		String identificator = sc.nextLine();
 		System.out.println("Ingrese el salario del entrenador");
@@ -179,7 +179,7 @@ public class Main{
 
 		System.out.println("Mostrar información del equipo (Team A: 1 - Team B: 2)");
 		opt=sc.nextInt();
-		club.showInfo(opt);
+		System.out.println(club.showInfo(opt));
 
 	}
 

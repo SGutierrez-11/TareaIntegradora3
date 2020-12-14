@@ -12,9 +12,9 @@ public abstract class Employee {
     }
 
     public String employeeToString(){
-        String msg ="Nombre: "+name+"\n"+
-                    "Numero de ID: "+identificator+"\n"+
-                    "Salario: "+salary+"\n";
+        String msg ="Nombre: "+ name +"\n"+
+                    "Numero de ID: "+ identificator +"\n"+
+                    "Salario: "+ salary +"\n";
         return msg;
     }
 

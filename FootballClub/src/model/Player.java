@@ -20,6 +20,7 @@ public class Player extends Employee implements Profitable {
     @Override
     public String employeeToString() {
         String msg = super.employeeToString();
+
         msg += "Posicion: " + position + "\n" 
             + "Numero de camiseta: " + numberShirt + "\n" 
             + "Promedio del jugador: "+ averageRating + "\n" 

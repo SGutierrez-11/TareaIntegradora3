@@ -21,7 +21,7 @@ public class Team {
     }
     public boolean addPlayer(Player aPlayer){
         boolean answ = false;
-        for(int i = 0; i < players.length; i++){
+        for(int i = 0; i < players.length && !answ; i++){
             if(players[i] == null){
                 players[i] = aPlayer;
                 answ = true;
@@ -40,7 +40,7 @@ public class Team {
     }
     public boolean addAssistantCoach(CoachAssistant aCoachAssistant){
         boolean answ = false;
-        for(int i = 0; i < assistantsCoach.length; i++){
+        for(int i = 0; i < assistantsCoach.length && !answ; i++){
             if(assistantsCoach[i] == null){
                 assistantsCoach[i] = aCoachAssistant;
                 answ = true;
@@ -65,13 +65,12 @@ public class Team {
             }
         }
         msg += "Jugadores del equipo:\n";
-        if(players != null){
+        
             for(int i = 0; i < players.length; i++){
                 if(players[i] != null){
                     msg += players[i].employeeToString()+"\n";
                 }
             }
-        }
         return msg;
     }
 		

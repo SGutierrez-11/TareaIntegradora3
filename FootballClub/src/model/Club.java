@@ -110,10 +110,10 @@ public class Club {
         switch(opt){
             
             case 1:
-                msg = teamA.showTeamInfo();
+                msg += teamA.showTeamInfo();
                 break;
             case 2:
-                msg = teamB.showTeamInfo();
+                msg += teamB.showTeamInfo();
                 break;
         }
 

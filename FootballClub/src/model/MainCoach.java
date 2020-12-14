@@ -17,7 +17,7 @@ public class MainCoach extends Coach implements Profitable {
     public String employeeToString() {
         String msg = super.employeeToString();
         msg += "Cantidad de equipos liderados " + teamsThatEncharger + "\n" 
-            + "Cantidad de campeonatos ganados: "+ wonChampionships;
+            + "Cantidad de campeonatos ganados: "+ wonChampionships + "\n";
         return msg;
     }
 		
