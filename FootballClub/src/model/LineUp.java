@@ -13,20 +13,46 @@ public class LineUp{
 	 this.tactics=tactics;
  }
  
- public String getDate(){
-	 return date;
- }
- 
- public void setDate(String date){
-	 this.date=date;
- }
- 
- public boolean[][] getFormation(){
-	 return formation;
- }
- 
- public void setFormation(){
-	 this.formation=formation;
- }
- 
+    /**
+     * @return String return the date
+     */
+    public String getDate() {
+        return date;
+    }
+
+    /**
+     * @param date the date to set
+     */
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    /**
+     * @return boolean[][] return the formation
+     */
+    public boolean[][] getFormation() {
+        return formation;
+    }
+
+    /**
+     * @param formation the formation to set
+     */
+    public void setFormation(boolean[][] formation) {
+        this.formation = formation;
+    }
+
+    /**
+     * @return Tactics return the tactics
+     */
+    public Tactics getTactics() {
+        return tactics;
+    }
+
+    /**
+     * @param tactics the tactics to set
+     */
+    public void setTactics(Tactics tactics) {
+        this.tactics = tactics;
+    }
+
 }
